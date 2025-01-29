@@ -3,14 +3,14 @@
 ################################################################################
 ###### Table Organization
 
-PlotID <- read.csv("C:/Users/star1/Documents/GitHub/Chicago_ISS_UFUG/Final_ISS_GitHub/PlotID.csv")
+PlotID <- read.csv("C:/Users/star1/Documents/GitHub/UFUG_Chicago_ISS/Final_ISS_GitHub/PlotID.csv")
 PlotID <- c(PlotID$x)
 ###### Table Organization
 library(dplyr)
 library(sf)
 # setwd("S:/Labs/HardimanLab/Isaac/Playing with Buckthorn Data/Playing with Buckthorn Data")
 # setwd("C:/Users/star1/Documents/GitHub/Chicago-Invasives-Analysis/Output")
-setwd("C:/Users/star1/Documents/GitHub/Chicago_ISS_UFUG/Final_ISS_GitHub")
+setwd("C:/Users/star1/Documents/GitHub/UFUG_Chicago_ISS/Final_ISS_GitHub")
 
 # plotTable <- read.csv("metricsJoined2.csv")
 # species_BA_list <- read.csv("C:/Users/star1/Documents/GitHub/Chicago-Invasives-Analysis/Output/Lindsay_Table/plotBAForBuckthorn1.csv")
